@@ -215,6 +215,7 @@ exports.config = {
      */
     beforeTest: async function (test, context) {
        await browser.url("https://www.riverisland.com/p/gold-sequin-vest-top-764224");
+        
     },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
